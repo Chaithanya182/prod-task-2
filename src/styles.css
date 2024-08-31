@@ -1,0 +1,59 @@
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.stopwatch {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.heading h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #3498db; /* A nice blue */
+}
+
+.display {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.controls button {
+  padding: 15px 25px;
+  font-size: 1.2rem;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+  background-color: #2980b9;
+}
+
+.laps {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.laps li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
